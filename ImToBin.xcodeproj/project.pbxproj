@@ -55,14 +55,94 @@
 		356601142B2F5AB800A66C22 /* ImToBin */ = {
 			isa = PBXGroup;
 			children = (
-				356601152B2F5AB800A66C22 /* AppDelegate.swift */,
-				356601172B2F5AB800A66C22 /* art.scnassets */,
-				356601192B2F5AB800A66C22 /* ViewController.swift */,
-				3566011B2B2F5AB800A66C22 /* Main.storyboard */,
-				3566011E2B2F5AB900A66C22 /* Assets.xcassets */,
-				356601202B2F5AB900A66C22 /* LaunchScreen.storyboard */,
+				356601282B2F5BE900A66C22 /* App */,
+				3568D9E42B2F5D2B00D0758E /* Core */,
+				3568D9E52B2F5D2F00D0758E /* Futures */,
 			);
 			path = ImToBin;
+			sourceTree = "<group>";
+		};
+		356601282B2F5BE900A66C22 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				356601292B2F5C1200A66C22 /* Assets */,
+				356601152B2F5AB800A66C22 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		356601292B2F5C1200A66C22 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3566011E2B2F5AB900A66C22 /* Assets.xcassets */,
+				356601172B2F5AB800A66C22 /* art.scnassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3568D9E42B2F5D2B00D0758E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3568D9EC2B2F5DCE00D0758E /* Algorithm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3568D9E52B2F5D2F00D0758E /* Futures */ = {
+			isa = PBXGroup;
+			children = (
+				3568D9E62B2F5D3C00D0758E /* Main */,
+				3568D9EA2B2F5D9D00D0758E /* LaunchScreen */,
+			);
+			path = Futures;
+			sourceTree = "<group>";
+		};
+		3568D9E62B2F5D3C00D0758E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3568D9E82B2F5D8C00D0758E /* View */,
+				3568D9E72B2F5D6C00D0758E /* ViewControlller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3568D9E72B2F5D6C00D0758E /* ViewControlller */ = {
+			isa = PBXGroup;
+			children = (
+				356601192B2F5AB800A66C22 /* ViewController.swift */,
+			);
+			path = ViewControlller;
+			sourceTree = "<group>";
+		};
+		3568D9E82B2F5D8C00D0758E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3566011B2B2F5AB800A66C22 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3568D9EA2B2F5D9D00D0758E /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3568D9EB2B2F5DA300D0758E /* View */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		3568D9EB2B2F5DA300D0758E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				356601202B2F5AB900A66C22 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3568D9EC2B2F5DCE00D0758E /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
